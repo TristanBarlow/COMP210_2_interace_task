@@ -10,7 +10,7 @@ The game I will implement my interface for will be very simple. You will be stan
 
 # Market
 
-From the market research I have done, there seem to be no games currently out for VR that have a similar concept. As VR becomes more accessible to the general public I believe more games will appear. I think provided I make the interface smooth and easy to navigate the competition such games inspire may prove Don't Drop The Cargo to be popular. From the game [superhot](url"https://superhotgame.com/") I noticed that my peers and myself had the most fun when playing endless mode seeking to beat the current high score. I hope to emulate this kind of challenge.
+From the market research I have done, there seem to be no games currently out for VR that have a similar concept. As VR becomes more accessible to the general public I believe more games will appear. I think provided I make the interface smooth and easy to navigate the competition such games inspire may prove Don't Drop The Cargo to be popular. From the game [superhot](https://superhotgame.com/) I noticed that my peers and myself had the most fun when playing endless mode seeking to beat the current high score. I hope to emulate this kind of challenge.
 
 
 
