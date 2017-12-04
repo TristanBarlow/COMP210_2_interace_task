@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\DontDropTheCargo.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{BBB2CCBA-7804-4BD4-A21D-9279904C0290}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\DontDropTheCargo.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\DontDropTheCargoEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{E12E569E-9BAB-4FD6-8667-0C49D9919509}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultScalability.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\DontDropTheCargo">
+			<UniqueIdentifier>{2E1DAD17-3259-4B98-9640-CEB989DDA618}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\DontDropTheCargo\DontDropTheCargo.Build.cs">
+			<Filter>Source\DontDropTheCargo</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\DontDropTheCargo\DontDropTheCargo.cpp">
+			<Filter>Source\DontDropTheCargo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DontDropTheCargo\DontDropTheCargo.h">
+			<Filter>Source\DontDropTheCargo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\DontDropTheCargo\EnemyActor.cpp">
+			<Filter>Source\DontDropTheCargo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DontDropTheCargo\EnemyActor.h">
+			<Filter>Source\DontDropTheCargo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\DontDropTheCargo\MyGameModeBase.cpp">
+			<Filter>Source\DontDropTheCargo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DontDropTheCargo\MyGameModeBase.h">
+			<Filter>Source\DontDropTheCargo</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\DontDropTheCargo\MyPawnBase.cpp">
+			<Filter>Source\DontDropTheCargo</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\DontDropTheCargo\MyPawnBase.h">
+			<Filter>Source\DontDropTheCargo</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
