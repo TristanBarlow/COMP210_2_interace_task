@@ -2,13 +2,13 @@
 	"TargetName" : "DontDropTheCargoEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "a85275cd-d363-4594-bbcc-177600e839e0",
+	"BuildId" : "7d5229ac-d3e2-4191-ac6f-9a43d8706aee",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
 		"MinorVersion" : 17,
-		"PatchVersion" : 1,
-		"Changelist" : 3586342,
+		"PatchVersion" : 2,
+		"Changelist" : 3658906,
 		"CompatibleChangelist" : 3573198,
 		"IsLicenseeVersion" : 0,
 		"IsPromotedBuild" : 1,
@@ -2145,21 +2145,6 @@
 		},
 		{
 			"Path" : "$(EngineDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-VulkanShaderFormat.lib",
-			"Type" : "ImportLibrary",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/Win64/UE4Editor-TextureFormatAndroid.dll",
-			"Type" : "DynamicLibrary",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Binaries/Win64/UE4Editor-TextureFormatAndroid.pdb",
-			"Type" : "SymbolFile",
-			"IsPrecompiled" : true
-		},
-		{
-			"Path" : "$(EngineDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-TextureFormatAndroid.lib",
 			"Type" : "ImportLibrary",
 			"IsPrecompiled" : true
 		},
@@ -7917,6 +7902,13 @@
 		{
 			"Path" : "$(EngineDir)/Binaries/ThirdParty/PhysX/Win64/VS2015/PhysX3CookingPROFILE_x64.pdb",
 			"Type" : "DebugNonUFS"
+		}
+	],
+	"AdditionalProperties" :
+	[
+		{
+			"Name" : "SDK",
+			"Value" : "Not Applicable"
 		}
 	]
 }
