@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define DONTDROPTHECARGO_MyGameModeBase_generated_h
 
-#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_RPC_WRAPPERS
-#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
+#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_RPC_WRAPPERS
+#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyGameModeBase(); \
 	friend DONTDROPTHECARGO_API class UClass* Z_Construct_UClass_AMyGameModeBase(); \
@@ -25,7 +25,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_INCLASS \
+#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyGameModeBase(); \
 	friend DONTDROPTHECARGO_API class UClass* Z_Construct_UClass_AMyGameModeBase(); \
@@ -35,7 +35,7 @@ public: \
 	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
 
 
-#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyGameModeBase) \
@@ -48,7 +48,7 @@ private: \
 public:
 
 
-#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyGameModeBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -61,26 +61,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyGameModeBase); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyGameModeBase)
 
 
-#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET
-#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_12_PROLOG
-#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_GENERATED_BODY_LEGACY \
+#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_PRIVATE_PROPERTY_OFFSET
+#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_14_PROLOG
+#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_RPC_WRAPPERS \
-	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_INCLASS \
-	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_STANDARD_CONSTRUCTORS \
+	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_PRIVATE_PROPERTY_OFFSET \
+	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_RPC_WRAPPERS \
+	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_INCLASS \
+	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_GENERATED_BODY \
+#define DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_PRIVATE_PROPERTY_OFFSET \
-	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_INCLASS_NO_PURE_DECLS \
-	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_15_ENHANCED_CONSTRUCTORS \
+	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_PRIVATE_PROPERTY_OFFSET \
+	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_INCLASS_NO_PURE_DECLS \
+	DontDropTheCargo_Source_DontDropTheCargo_MyGameModeBase_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

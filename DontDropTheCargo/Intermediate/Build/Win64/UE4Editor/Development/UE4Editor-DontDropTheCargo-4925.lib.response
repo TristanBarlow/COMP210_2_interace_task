@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-DontDropTheCargo-4925.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"F:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Intermediate\Build\Win64\UE4Editor\Development\DontDropTheCargo\DontDropTheCargo.cpp.obj"
+"F:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Intermediate\Build\Win64\UE4Editor\Development\DontDropTheCargo\EnemyActor.cpp.obj"
+"F:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Intermediate\Build\Win64\UE4Editor\Development\DontDropTheCargo\MyFloorBase.cpp.obj"
+"F:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Intermediate\Build\Win64\UE4Editor\Development\DontDropTheCargo\MyGameModeBase.cpp.obj"
+"F:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Intermediate\Build\Win64\UE4Editor\Development\DontDropTheCargo\MyPawnBase.cpp.obj"
+"F:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Intermediate\Build\Win64\UE4Editor\Development\DontDropTheCargo\DontDropTheCargo.init.gen.cpp.obj"
+"F:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Intermediate\Build\Win64\UE4Editor\Development\DontDropTheCargo\EnemyActor.gen.cpp.obj"
+"F:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Intermediate\Build\Win64\UE4Editor\Development\DontDropTheCargo\MyFloorBase.gen.cpp.obj"
+"F:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Intermediate\Build\Win64\UE4Editor\Development\DontDropTheCargo\MyGameModeBase.gen.cpp.obj"
+"F:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Intermediate\Build\Win64\UE4Editor\Development\DontDropTheCargo\MyPawnBase.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\DontDropTheCargo\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"F:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-DontDropTheCargo-4925.lib"

@@ -1,0 +1,113 @@
+// Copyright 1998-2017 Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+#include "ObjectMacros.h"
+#include "ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
+#ifdef DONTDROPTHECARGO_MyFloorBase_generated_h
+#error "MyFloorBase.generated.h already included, missing '#pragma once' in MyFloorBase.h"
+#endif
+#define DONTDROPTHECARGO_MyFloorBase_generated_h
+
+#define DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execsetFloorTickMovement) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_newMovement); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->setFloorTickMovement(Z_Param_newMovement); \
+		P_NATIVE_END; \
+	}
+
+
+#define DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execsetFloorTickMovement) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_newMovement); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->setFloorTickMovement(Z_Param_newMovement); \
+		P_NATIVE_END; \
+	}
+
+
+#define DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesAMyFloorBase(); \
+	friend DONTDROPTHECARGO_API class UClass* Z_Construct_UClass_AMyFloorBase(); \
+public: \
+	DECLARE_CLASS(AMyFloorBase, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/DontDropTheCargo"), NO_API) \
+	DECLARE_SERIALIZER(AMyFloorBase) \
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+
+
+#define DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_INCLASS \
+private: \
+	static void StaticRegisterNativesAMyFloorBase(); \
+	friend DONTDROPTHECARGO_API class UClass* Z_Construct_UClass_AMyFloorBase(); \
+public: \
+	DECLARE_CLASS(AMyFloorBase, AActor, COMPILED_IN_FLAGS(0), 0, TEXT("/Script/DontDropTheCargo"), NO_API) \
+	DECLARE_SERIALIZER(AMyFloorBase) \
+	enum {IsIntrinsic=COMPILED_IN_INTRINSIC};
+
+
+#define DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_STANDARD_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API AMyFloorBase(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyFloorBase) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyFloorBase); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyFloorBase); \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AMyFloorBase(AMyFloorBase&&); \
+	NO_API AMyFloorBase(const AMyFloorBase&); \
+public:
+
+
+#define DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	NO_API AMyFloorBase(AMyFloorBase&&); \
+	NO_API AMyFloorBase(const AMyFloorBase&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyFloorBase); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyFloorBase); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyFloorBase)
+
+
+#define DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_PRIVATE_PROPERTY_OFFSET
+#define DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_9_PROLOG
+#define DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_GENERATED_BODY_LEGACY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_PRIVATE_PROPERTY_OFFSET \
+	DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_RPC_WRAPPERS \
+	DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_INCLASS \
+	DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_STANDARD_CONSTRUCTORS \
+public: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#define DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_PRIVATE_PROPERTY_OFFSET \
+	DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+	DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_INCLASS_NO_PURE_DECLS \
+	DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h_12_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID DontDropTheCargo_Source_DontDropTheCargo_MyFloorBase_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

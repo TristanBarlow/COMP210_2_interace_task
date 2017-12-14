@@ -19,7 +19,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	FVector pawnTickMovement = FVector(1.0f,0.0,0.0);
+	FVector pawnTickMovement = FVector(0.0,0.0,0.0);
 
 public:	
 	// Called every frame
@@ -28,7 +28,8 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
+	//Used to set the offset the pawn has every tick
 	UFUNCTION(BlueprintCallable, Category = PawnFunctions )
-	void setPawnTickMovement(FVector newMovement);
+		void setPawnTickMovement(FVector newMovement);
 	
 };

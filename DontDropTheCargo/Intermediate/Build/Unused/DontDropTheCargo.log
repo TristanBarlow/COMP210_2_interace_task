@@ -1,0 +1,13 @@
+﻿  Compiling game modules for hot reload
+  Performing 3 actions (4 in parallel)
+  MyGameModeBase.cpp
+G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Source\DontDropTheCargo\MyGameModeBase.cpp(11): error C2664: 'T *UWorld::SpawnActor<AMyFloorBase>(UClass *,const FVector &,const FRotator &,const FActorSpawnParameters &)': cannot convert argument 3 from 'FQuat' to 'const FRotator &'
+          with
+          [
+              T=AMyFloorBase
+          ]
+  G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Source\DontDropTheCargo\MyGameModeBase.cpp(11): note: Reason: cannot convert from 'FQuat' to 'const FRotator'
+  G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Source\DontDropTheCargo\MyGameModeBase.cpp(11): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+ERROR : UBT error : Failed to produce item: G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Win64\UE4Editor-DontDropTheCargo-1347.dll
+  Total build time: 13.13 seconds (Local executor: 0.00 seconds)
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.MakeFile.Targets(41,5): error MSB3075: The command ""C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Build.bat" DontDropTheCargoEditor Win64 Development "G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\DontDropTheCargo.uproject" -waitmutex" exited with code 5. Please verify that you have sufficient rights to run this command.

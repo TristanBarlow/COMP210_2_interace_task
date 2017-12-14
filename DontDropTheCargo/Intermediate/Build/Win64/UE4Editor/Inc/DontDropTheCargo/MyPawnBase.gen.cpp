@@ -47,6 +47,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPawnBase() {}
 			UMetaData* MetaData = ReturnFunction->GetOutermost()->GetMetaData();
 			MetaData->SetValue(ReturnFunction, TEXT("Category"), TEXT("PawnFunctions"));
 			MetaData->SetValue(ReturnFunction, TEXT("ModuleRelativePath"), TEXT("MyPawnBase.h"));
+			MetaData->SetValue(ReturnFunction, TEXT("ToolTip"), TEXT("Used to set the offset the pawn has every tick"));
 #endif
 		}
 		return ReturnFunction;
@@ -70,7 +71,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPawnBase() {}
 
 				OuterClass->LinkChild(Z_Construct_UFunction_AMyPawnBase_setPawnTickMovement());
 
-				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AMyPawnBase_setPawnTickMovement(), "setPawnTickMovement"); // 3716133856
+				OuterClass->AddFunctionToFunctionMapWithOverriddenName(Z_Construct_UFunction_AMyPawnBase_setPawnTickMovement(), "setPawnTickMovement"); // 1331111155
 				static TCppClassTypeInfo<TCppClassTypeTraits<AMyPawnBase> > StaticCppClassTypeInfo;
 				OuterClass->SetCppTypeInfo(&StaticCppClassTypeInfo);
 				OuterClass->StaticLink();
@@ -85,7 +86,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPawnBase() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyPawnBase, 613006570);
+	IMPLEMENT_CLASS(AMyPawnBase, 693017822);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMyPawnBase(Z_Construct_UClass_AMyPawnBase, &AMyPawnBase::StaticClass, TEXT("/Script/DontDropTheCargo"), TEXT("AMyPawnBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyPawnBase);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

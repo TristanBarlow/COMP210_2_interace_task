@@ -495,10 +495,10 @@
 		<ExcludePath />
 		<AndroidAttach>False</AndroidAttach>
 		<DebuggerFlavor>AndroidDebugger</DebuggerFlavor>
-		<OverrideAPKPath>C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android\DontDropTheCargo-Android-DebugGame-armv7-es2.apk</OverrideAPKPath>
-		<AdditionalLibraryDirectories>C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\obj\local\armeabi-v7a;C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\obj\local\x86;$(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-		<BuildXmlPath>C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK</BuildXmlPath>
-		<AndroidManifestPath>C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\AndroidManifest.xml</AndroidManifestPath>
+		<OverrideAPKPath>G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android\DontDropTheCargo-Android-DebugGame-armv7-es2.apk</OverrideAPKPath>
+		<AdditionalLibraryDirectories>G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\obj\local\armeabi-v7a;G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\obj\local\x86;$(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+		<BuildXmlPath>G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK</BuildXmlPath>
+		<AndroidManifestPath>G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\AndroidManifest.xml</AndroidManifestPath>
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
 		<NMakeBuildCommandLine>"C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Build.bat" DontDropTheCargo Android DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
@@ -647,10 +647,10 @@
 		<ExcludePath />
 		<AndroidAttach>False</AndroidAttach>
 		<DebuggerFlavor>AndroidDebugger</DebuggerFlavor>
-		<OverrideAPKPath>C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android\DontDropTheCargo-armv7-es2.apk</OverrideAPKPath>
-		<AdditionalLibraryDirectories>C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\obj\local\armeabi-v7a;C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\obj\local\x86;$(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-		<BuildXmlPath>C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK</BuildXmlPath>
-		<AndroidManifestPath>C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\AndroidManifest.xml</AndroidManifestPath>
+		<OverrideAPKPath>G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android\DontDropTheCargo-armv7-es2.apk</OverrideAPKPath>
+		<AdditionalLibraryDirectories>G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\obj\local\armeabi-v7a;G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\obj\local\x86;$(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+		<BuildXmlPath>G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK</BuildXmlPath>
+		<AndroidManifestPath>G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\AndroidManifest.xml</AndroidManifestPath>
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
 		<NMakeBuildCommandLine>"C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Build.bat" DontDropTheCargo Android Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
@@ -760,10 +760,10 @@
 		<ExcludePath />
 		<AndroidAttach>False</AndroidAttach>
 		<DebuggerFlavor>AndroidDebugger</DebuggerFlavor>
-		<OverrideAPKPath>C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android\DontDropTheCargo-Android-Shipping-armv7-es2.apk</OverrideAPKPath>
-		<AdditionalLibraryDirectories>C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\obj\local\armeabi-v7a;C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\obj\local\x86;$(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-		<BuildXmlPath>C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK</BuildXmlPath>
-		<AndroidManifestPath>C:\Users\Tristan\Desktop\UNIWORK2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\AndroidManifest.xml</AndroidManifestPath>
+		<OverrideAPKPath>G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android\DontDropTheCargo-Android-Shipping-armv7-es2.apk</OverrideAPKPath>
+		<AdditionalLibraryDirectories>G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\obj\local\armeabi-v7a;G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\obj\local\x86;$(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+		<BuildXmlPath>G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK</BuildXmlPath>
+		<AndroidManifestPath>G:\UNI2017-2018\COMP210_2_interace_task\DontDropTheCargo\Binaries\Android/../../Intermediate/Android/APK\AndroidManifest.xml</AndroidManifestPath>
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
 		<NMakeBuildCommandLine>"C:\Program Files (x86)\Epic Games\UE_4.17\Engine\Build\BatchFiles\Build.bat" DontDropTheCargo Android Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
@@ -792,6 +792,7 @@
 		<None Include="..\..\DontDropTheCargo.uproject" />
 		<None Include="..\..\Source\DontDropTheCargo.Target.cs" />
 		<None Include="..\..\Source\DontDropTheCargoEditor.Target.cs" />
+		<None Include="..\..\Config\DefaultEditor.ini" />
 		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini" />
 		<None Include="..\..\Config\DefaultEngine.ini" />
 		<None Include="..\..\Config\DefaultGame.ini" />
@@ -802,6 +803,8 @@
 		<ClInclude Include="..\..\Source\DontDropTheCargo\DontDropTheCargo.h" />
 		<ClCompile Include="..\..\Source\DontDropTheCargo\EnemyActor.cpp" />
 		<ClInclude Include="..\..\Source\DontDropTheCargo\EnemyActor.h" />
+		<ClCompile Include="..\..\Source\DontDropTheCargo\MyFloorBase.cpp" />
+		<ClInclude Include="..\..\Source\DontDropTheCargo\MyFloorBase.h" />
 		<ClCompile Include="..\..\Source\DontDropTheCargo\MyGameModeBase.cpp" />
 		<ClInclude Include="..\..\Source\DontDropTheCargo\MyGameModeBase.h" />
 		<ClCompile Include="..\..\Source\DontDropTheCargo\MyPawnBase.cpp" />
